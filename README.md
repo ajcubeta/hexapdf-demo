@@ -28,10 +28,10 @@ HexaPDF is a pure Ruby library with an accompanying application for working with
 
 [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-[GitHub Location](https://github.com/ajcubeta/hexapdf-demo) 
+[GitHub Location](https://github.com/ajcubeta/hexapdf-demo)
 
-[Initial Release of HexaPDF] (http://hexapdf.gettalong.org/news/index.html) 
-	(Published on Wednesday, 26 October 2016)
+[Initial Release of HexaPDF] (http://hexapdf.gettalong.org/news/index.html)
+(Published on Wednesday, 26 October 2016)
 
 Website URL [here](http://hexapdf.gettalong.org), the HexaPDF is able to do:
 
@@ -51,7 +51,7 @@ Go to `rails console`
 require 'hexapdf'
 
 doc = HexaPDF::Document.new
-canvas = doc.pages.add_page.canvas 
+canvas = doc.pages.add_page.canvas
 canvas.font('Helvetica', size: 100)
 canvas.text("Hello World!", at: [20, 400])
 doc.write("hello-world.pdf")
@@ -66,3 +66,17 @@ NoMethodError: undefined method `downcase' for nil:NilClass
 ```
 
 I still need to review the #SourCode and API Documentation for this Demo.
+
+<!-- This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+* Ruby version
+* System dependencies
+* Configuration
+* Database creation
+* Database initialization
+* How to run the test suite
+* Services (job queues, cache servers, search engines, etc.)
+* Deployment instructions
+* ... -->
