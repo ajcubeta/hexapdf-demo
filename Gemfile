@@ -28,7 +28,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Just add hexapdf as simple app sample!
-gem 'hexapdf'
+gem "hexapdf"
+
+# Thomas Leitner <t_leitner@gmx.at> said!
+# This issue has already been reported and fixed, see
+# https://github.com/gettalong/hexapdf/issues/2.
+# I.e. you need to use the latest version in the Github repository.
+# gem "hexapdf", git: "https://github.com/gettalong/hexapdf/tree/master/lib"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
