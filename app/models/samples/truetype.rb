@@ -6,6 +6,10 @@ doc.config['font.map'] = {
   'myfont' => {none: ARGV.shift || File.join(__dir__, '../test/data/fonts/Ubuntu-Title.ttf')}
 }
 
+# doc.config['font.map'] = {
+#   'myfont' => {none: ARGV.shift || File.join(__dir__, '../test/data/fonts/Ubuntu-Title.ttf')}
+# }
+
 wrapper = doc.fonts.load('myfont')
 max_gid = wrapper.wrapped_font[:maxp].num_glyphs
 
